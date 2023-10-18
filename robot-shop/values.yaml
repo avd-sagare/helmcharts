@@ -1,9 +1,9 @@
 # Registry and repository for Docker images
 # Default is docker/robotshop/image:latest
 image:
-  repo: robotshop
+  repo: quay.io/niklaushirt
   version: latest
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
 
 # EUM configuration
 # Provide your key and set the endpoint
